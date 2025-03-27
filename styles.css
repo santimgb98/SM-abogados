@@ -1,0 +1,291 @@
+#header{
+
+margin-left:20em;
+margin-right:20em;
+padding-left: 2em;
+
+height: 12em;
+align-content: center;
+
+background: rgb(177, 233, 177);
+
+}
+    #title{
+        font-size: 2em;
+        margin-bottom: 0.5em;
+
+    }
+    #title_text{
+        padding-right: 23em;
+
+    }
+
+#services{ /* APARTADO SERVICIOS*/
+
+    margin-left:20em;
+    margin-right:20em;
+    padding-top: 2em;
+
+    border-style: ridge;
+    height: 15em;
+    background-image: url(./Img/image.png);
+
+}
+    #services_title{ /*PALABRA SERVICIO*/
+        font-size: 1.5em;
+        margin-left: 15em;
+        margin-bottom: 1.5em;
+    }
+    #triangles{ /*CONJUNTO TRIÁNGULOS*/
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10em;
+        margin-right: 2em;
+
+    }
+        .tipe_service{ /*CADA TRIÁNGULO*/
+            text-align: center;
+            padding-right: em;
+            width: 0;
+            height: 0;
+            border: 4em solid transparent;
+            border-top: 0;
+            border-bottom: 7em solid rgb(177, 233, 177);
+        }
+            .icon_triangle{
+                margin-top: 2em;
+
+            }
+            .text_triangle{
+                margin-top: 1em;
+
+            }
+
+#our_team{
+    margin-left:20em;
+    margin-right:20em;
+
+    padding-top: 2em;
+
+    border-style: ridge;
+
+    height: 40em;
+    background: rgb(177, 233, 177);
+}
+    #our_team_title{
+        font-size: 1.5em;
+        text-align: center;
+        
+    }
+    #first_workers{
+        display: flex;
+        justify-content: space-evenly;
+
+        padding-top: 2em;
+        
+    }
+    #second_workers{
+        display: flex;
+        justify-content: space-evenly;
+
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-top: 2em;
+
+    }
+        .worker{
+            border-style: ridge;
+            border-radius: 1em;
+
+            height: 9em;
+            width: 7em;
+            background: rgb(255, 255, 255);
+        }
+            .photo{
+                justify-self: center;
+                margin-top: 0.6em;
+
+
+                width: 4em;
+                height: 4em;
+            }
+                .photo_worker{
+                    border-radius: 10em;
+                }
+            .name{
+                text-align: center;
+                margin-top: 0.5em;
+            }
+            .workstation{
+                text-align: center;
+                margin-top: 0.5em;
+            }
+    #text{
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 2em;
+
+        font-size: 1.14em;
+        text-align: center;
+    }
+
+#FAQ{
+    margin-left:20em;
+    margin-right:20em;
+
+    padding-top: 2em;
+
+    border-style: ridge;
+
+    height: 20em;
+}
+    #content_FAQ{
+        display: flex;
+
+        height: 15em;
+        margin-left: 3em;
+        margin-right: 3em;
+
+    }
+        #title_img{
+            width: 30%;
+            margin-top:5%;
+            margin-left:1em;
+        }
+            #title_FAQ{
+                font-size: 2.5em;
+
+                margin-left: 1em;
+            }
+            #img_FAQ{
+                margin-left: 2em;
+            }
+        #questions{
+            width: 70%;
+            align-content: center;
+            margin-top:4%;
+        }
+            .dropdown{
+                display: flex;
+
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 0.3em;
+                margin-bottom: 1em;
+                margin-left: 2em;
+
+                border-radius: 2em;
+                width: 80%;
+                background: rgb(9, 70, 9);
+            }
+                .q{ /*PREGUNTAS DEL FAQ*/
+                    color:white;
+                    font-size: 1.4em;
+                    padding-left: 1em;
+                }
+                .arrowDown{/*FLECHA ABAJO*/
+                    
+                }
+
+#contact{
+    display: flex;
+    margin-left:20em;
+    margin-right:20em;
+
+
+    justify-content: space-around;
+    align-items: center;
+
+    border-style: ridge;
+    height: 10em;
+
+    background: rgb(177, 233, 177);
+}
+    #contact_text{
+        text-align: center;
+        margin-left:2em;
+        margin-right:2em;
+    }
+        #text_top{
+            font-size: 1.3em;
+        }
+        #text_bottom{
+            font-size: 2em;
+        }
+    #contact_button{
+
+        width: 30%;
+        height: 30%;
+
+        align-content: center;
+        text-align: center;
+    }
+        #button{
+            width: 80%;
+            height: 80%;
+
+            background: rgb(9, 70, 9);
+            color: white;
+            font-size: 1.2em;
+
+            border-radius: 2em;
+            border-color: rgb(9, 70, 9);
+
+        }
+
+#testimonials{
+
+    margin-left:20em;
+    margin-right:20em;
+
+    border-style: ridge;
+    height: 30em;
+
+    /*background: url("./Img/image.png");*/
+
+}
+    #testimony_title{
+        margin-top: 1em;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    #testimonials_content{
+        margin-top: 2em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+        .users{
+            display: flex;
+            margin-bottom: 2em;
+
+        }
+            .content_user{
+                align-content: center;
+                margin-left: 2em;
+            }
+                .name_user{
+                    margin-bottom: 0.5em;
+                }
+                .testimonial_user{
+                    font-size: 0.9em;
+                }
+
+#footer{
+    margin-left:20em;
+    margin-right:20em;
+    padding-left: 2em;
+
+    border-style: ridge;
+    height: 8em;
+
+    background: rgb(177, 233, 177);
+
+    align-content: center;
+}
+    .text_footer{
+        font-size: 0.9em;
+    }
+    .text2_footer{
+        font-size: 0.9em;
+        margin-top: 1em;
+    }
