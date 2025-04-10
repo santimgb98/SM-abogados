@@ -270,3 +270,185 @@ background: rgb(216, 233, 216);
         font-size: 1.2em;
         margin-top: 1em;
     }
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media (390px <= width <844px){
+    #header{
+        text-align: center;
+        padding-left: 0;
+        height: 15em;
+    }
+    #title{
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+
+    }
+    #title_text{
+        padding-right: 0;
+        font-size: 1.1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+}
+@media (390px <= width <844px){
+    #title_text{
+        padding: 0;
+        text-align: center;
+    }
+}
+@media (390px <= width <844px){
+    #services_title{ /*PALABRA SERVICIO*/
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    #triangles{ /*CONJUNTO TRIÁNGULOS*/
+        padding-left: 0;
+        margin-left: 1em;
+    }
+}
+@media (390px <= width <844px){
+    .tipe_service{ /*CADA TRIÁNGULO*/
+        height: 7em;
+        width: 6em;
+        margin-right: 6em;
+    }
+}
+@media (390px <= width <844px){
+    #our_team{
+        height: 40em;
+
+    }
+    #first_workers{
+        display: none;
+
+    
+    }
+    #second_workers{
+        display: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #text{
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 2em;
+
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
+@media (390px <= width <844px){
+    #FAQ{
+        padding-top: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 20em;
+        text-align: center;
+        
+    }
+    .dropdown{
+        margin-bottom: 1em;
+        margin-left: 1.2em;
+        margin-right: 0;
+        text-align: center;
+        align-items: center;
+        width: 20em;
+        height: 3em;
+        padding-top:0;
+        padding-bottom:0;
+        
+    }
+    .q{ /*PREGUNTAS DEL FAQ*/
+        padding-left: 0;
+        align-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;    
+    }
+#contact{
+    display: none;
+    height: 8em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+    #contact_text{
+        margin-left:0;
+        margin-right:0;
+    }
+        #text_top{
+            font-size: 1em;
+        }
+        #text_bottom{
+            font-size: 1.3em;
+        }
+    #contact_button{
+        width: 30%;
+        height: 30%;
+        align-content: center;
+        text-align: center;
+    }
+        #button{
+            width: 95%;
+            height: 95%;
+            font-size: 1.1em;
+        }
+}
+
+@media (390px <= width <844px){
+    #testimonials{
+        height: 43em;
+        margin-left: 0;
+    }
+    #testimony_title{
+        margin-top: 1em;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    #testimonials_content{
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+        .users{
+            display: flex;
+            margin-bottom: 2em;
+
+        }
+            .content_user{
+                align-content: center;
+                margin-left: 2em;
+            }
+                .name_user{
+                    margin-bottom: 0.5em;
+                    font-size: 1.5em;
+                }
+                .testimonial_user{
+                    font-size: 1.2em;
+                }
+}
+
+@media (390px <= width <844px){
+    #footer{
+        padding-left: 0;
+        text-align: center;
+        height: 7em;
+    }
+        .text_footer{
+            font-size: 0.7em;
+        }
+        .text2_footer{
+            font-size: 0.7em;
+
+        }
+}
