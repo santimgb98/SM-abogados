@@ -278,6 +278,10 @@ background: rgb(216, 233, 216);
 /*MEDIA QUERIES*/
 
 @media (390px <= width <844px){
+
+    body{
+        margin:0;
+    }
     #header{
         text-align: center;
         padding-left: 0;
@@ -372,7 +376,7 @@ background: rgb(216, 233, 216);
     #FAQ{
         padding-top: 0;
         width: 100%;
-        margin-left: 0;
+        margin-left: 1em;
         margin-right: 0;
         height: 22em;
         text-align: center;
@@ -441,7 +445,7 @@ background: rgb(216, 233, 216);
     #testimonials_content{
         margin-top: 2em;
         margin-left: 1em;
-        margin-right: 1em;
+        margin-right: 3em;
     }
         .users{
             display: flex;
