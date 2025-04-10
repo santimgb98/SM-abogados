@@ -146,7 +146,7 @@ background: rgb(216, 233, 216);
         }
             #title_FAQ{
                 font-size: 2.5em;
-                margin-left: 1em;
+                margin-left: 1.4em;
             }
             #img_FAQ{
                 margin-left: 1em;
@@ -290,7 +290,7 @@ background: rgb(216, 233, 216);
     }
     #title_text{
         padding-right: 0;
-        font-size: 1.1em;
+        font-size: 1.3em;
         margin-left: 1em;
         margin-right: 1em;
     }
@@ -302,29 +302,51 @@ background: rgb(216, 233, 216);
         text-align: center;
     }
 }
-@media (390px <= width <844px){
-    #services_title{ /*PALABRA SERVICIO*/
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center;
-        padding: 0;
-    }
 
-    #triangles{ /*CONJUNTO TRIÁNGULOS*/
-        padding-left: 0;
-        margin-left: 1em;
-    }
-}
+/* Media query SERVICIOS*/
 @media (390px <= width <844px){
-    .tipe_service{ /*CADA TRIÁNGULO*/
-        height: 7em;
-        width: 6em;
-        margin-right: 6em;
+    #services{ /* APARTADO SERVICIOS*/
+
+        display:contents;
+        padding-top: 2em;
+        height: 18em;
+    
+        width: 100%;
     }
+    
+        #services_title{ /*PALABRA SERVICIO*/
+            font-size: 2em;
+            margin-left: 0;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+        #triangles{ /*CONJUNTO TRIÁNGULOS*/
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0;
+            margin-right: 0;
+            margin-bottom: 2em;
+            text-align: center;
+            align-content: center;
+        }
+            .tipe_service{ /*CADA TRIÁNGULO*/
+                height: 8em;
+                width: 6.5em;
+                margin-right: 0;
+                text-align: center;
+                align-content: center;
+            }
+            .text_triangle{
+                padding: 0;
+                margin-bottom: 1.5em;
+            }
+
+
 }
 @media (390px <= width <844px){
     #our_team{
-        height: 40em;
+        height: 30em;
+        background: white;
 
     }
     #first_workers{
@@ -352,7 +374,7 @@ background: rgb(216, 233, 216);
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        height: 20em;
+        height: 22em;
         text-align: center;
         
     }
@@ -376,21 +398,22 @@ background: rgb(216, 233, 216);
         width: 100%;    
     }
 #contact{
-    display: none;
-    height: 8em;
+
+    height: 10em;
     width: 100%;
     margin: 0;
     padding: 0;
+
 }
     #contact_text{
         margin-left:0;
         margin-right:0;
     }
         #text_top{
-            font-size: 1em;
+            font-size: 1.2em;
         }
         #text_bottom{
-            font-size: 1.3em;
+            font-size: 1.6em;
         }
     #contact_button{
         width: 30%;
@@ -407,7 +430,7 @@ background: rgb(216, 233, 216);
 
 @media (390px <= width <844px){
     #testimonials{
-        height: 43em;
+        height: 34em;
         margin-left: 0;
     }
     #testimony_title{
@@ -445,10 +468,10 @@ background: rgb(216, 233, 216);
         height: 7em;
     }
         .text_footer{
-            font-size: 0.7em;
+            font-size: 0.8em;
         }
         .text2_footer{
-            font-size: 0.7em;
+            font-size: 0.8em;
 
         }
 }
