@@ -1,3 +1,13 @@
+#btn_refresh{
+    width: 8%;
+    height: 2em;
+    position:absolute;
+    top: 2%;
+    right: 1%;
+
+    font-size: 120%;
+}
+
 #header{
 padding-left: 2em;
 width: 100%;
@@ -185,6 +195,7 @@ background: rgb(216, 233, 216);
 
     width: 100%;
     height: 12em;
+    margin-top: 18em;
 
     background: rgb(216, 233, 216);
 }
@@ -222,33 +233,54 @@ background: rgb(216, 233, 216);
 #testimonials{
 
     width: 100%;
-    height: 32em;
+    height: 45em;
 
     /*background: url("./Img/image.png");*/
 
 }
     #testimony_title{
         margin-top: 1em;
-        font-size: 2.5em;
+        font-size: 4em;
         text-align: center;
     }
     #testimonials_content{
-        margin-top: 2em;
+        margin-top: 1em;
         margin-left: 5em;
         margin-right: 5em;
+        display: flex;
+        position: relative;
+        top:10%;
+        justify-content: space-between;
     }
         .users{
-            display: flex;
             margin-bottom: 2em;
+            width: 20%;
+            height: 25em;
+            text-align: center;
 
+            background: rgb(216, 233, 216);
+            border-radius: 1em;
+
+            padding:2em;
+        }
+        .users:hover{
+            background: rgb(47, 92, 47);
+            color: white;
         }
             .content_user{
                 align-content: center;
                 margin-left: 2em;
             }
+                .image{
+                    border-radius: 1em;
+                }
                 .name_user{
-                    margin-bottom: 0.5em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
                     font-size: 1.5em;
+
+                    color: white;
+                    background: rgb(47, 92, 47);
                 }
                 .testimonial_user{
                     font-size: 1.2em;

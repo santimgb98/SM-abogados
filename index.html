@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
-
+    <button id="btn_refresh">Refrescar</button>
     <div id="header"> <!--HEADER-->
 
         <div id="title">SM ABOGADOS</div>
@@ -151,43 +152,8 @@
     </div>
 
     <div id="testimonials">
-
         <div id="testimony_title">TESTIMONIOS</div>
-        <div id="testimonials_content">
-            <div class="users"> <!--FLEX-->
-                <div class="photo_user">
-                    <!--<a><img width="70px" calss="photo" src="./Img/perfil_icon.jpg"></a>-->
-                </div>
-                <div class="content_user">
-                    <div class="name_user"><strong>Eduardo Giménez Val</strong></div>
-                    <div class="testimonial_user">Me han acompañado desde 
-                        el primer día en mi caso en particular, unos 
-                        profesionales impecables y muy buenas personas.</div>
-                </div>
-            </div>
-            <div class="users"> <!--FLEX-->
-                <div>
-                    <!--<a><img width="70px" calss="photo" src="./Img/perfil_icon.jpg"></a>-->
-                </div>
-                <div class="content_user">
-                    <div class="name_user"><strong>Margarita Augusta Riquelme</strong></div>
-                    <div class="testimonial_user">Gracias a este equipo de 
-                        profesionales pude solucionar temas que en otras 
-                        ocasiones me han ocasionado multitud de problemas. 
-                        Gran trabajo.</div>
-                </div>
-            </div>
-            <div class="users"> <!--FLEX-->
-                <div>
-                     <!--<a><img width="70px" calss="photo" src="./Img/perfil_icon.jpg"></a>-->
-                </div>
-                <div class="content_user">
-                    <div class="name_user"><strong>Joe Smith</strong></div>
-                    <div class="testimonial_user">Very good people and 
-                        services low cost. I’m very satisfied.</div>
-                </div>
-            </div>
-        </div>
+        <div id="testimonials_content"></div>
     </div>
 
     <div id="footer">
@@ -197,6 +163,6 @@
             y asesoramiento situado en Vigo</div>
         <div class="text2_footer">Aviso legal | Política de privacidad y cookies | Área Interna</div>
     </div>
-    
+    <script src="./app.js"></script>
 </body>
 </html>
