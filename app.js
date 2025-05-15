@@ -35,6 +35,26 @@ $(document).ready(()=>{
     }
 
     updateTestimonials();
+
+
+
+    $(".worker").mouseenter(()=>{
+        $(".worker").css("background","rgb(205, 236, 205)")
+        
+    });
+    $(".worker").mouseleave(()=>{
+        $(".worker").css("background","rgb(255, 255, 255)")
+    });
+
+    $("#button").mouseenter(()=>{
+        $("#button").height(50)
+        $("#button").width(250)
+    });
+    $("#button").mouseleave(()=>{
+        $("#button").height(38)
+        $("#button").width(350)
+    });
+
 })
 
 
